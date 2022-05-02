@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* se quiser usar apenas uma class no html, deixando mais limpo, basta usar*/
+.button {
+    @apply bg-violet-500 p-2;
+}
+/* ------------ */
