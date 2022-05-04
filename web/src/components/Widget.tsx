@@ -1,18 +1,13 @@
 import {ChatTeardropDots} from "phosphor-react"
-import { useState } from "react"
 import { Popover } from "@headlessui/react"
+import { WidgetForm } from "./WidgetForm/Index"
 
 export function Widget(){
-    /* const [isOpen, setIsOpen] = useState(false)
-
-    function toggleWidget() {
-      setIsOpen(!isOpen)  
-    }
- */
     return (
-        <Popover className="absolute bottom-4 right-4">
-            {/*isOpen && <p>Hello World</p>*/ /* && substitui a condicional if e ?, executando a segunda parte da instrução apenas se a primeira for TRUE */}
-            <Popover.Panel>Hello World</Popover.Panel> 
+        <Popover className="absolute bottom-4 right-4 flex flex-col items-end">
+            <Popover.Panel>
+                <WidgetForm />    
+            </Popover.Panel> 
 
             <Popover.Button className="bg-brand-500 rounded-full px-3 h-12 text-white flex items-center group">                
                 <ChatTeardropDots className="w-6 h-6"/>

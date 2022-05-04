@@ -1,5 +1,5 @@
 import { Fragment } from "react"
-import { feedbackTypes, FeedbackType } from ".."
+import { feedbackTypes, FeedbackType } from "../Index"
 import { CloseButton } from "../../CloseButton"
 
 interface FeedbackTypeStepProps {
