@@ -6,7 +6,7 @@ const sendMailSpy = jest.fn()
 const submitFeedback = new SubmitFeedback(
     {create: createFeedbackSpy},
     {sendMail: sendMailSpy}
-)
+) 
 
 describe("Submit feedback", () => {
     it("should be able to submit a feedback", async () => {
