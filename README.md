@@ -24,6 +24,9 @@ Widget de feedback desenvolvido em web e mobile para fornecer a experiência do 
 
 -   [ ] Seleciona o feedback do usuário a partir de três categorias.
 -   [ ] Anexa screenshot instantânea.
+-   [ ] Atenção voltada à acessibilidade do usuário.
+-   [ ] Navegação por teclas.
+-   [ ] Alta escalabilidade.
 -   [ ] Permite a integração em dispositivos móveis.
 
 
