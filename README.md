@@ -1,6 +1,6 @@
 
 ## 💻 Projeto
-Widget de feedback desenvolvido em web e mobile para fornecer a experiência do usuário diretamente ao cliente.
+Widget de feedback desenvolvido em web e mobile para fornecer a experiência do usuário diretamente ao cliente. Projeto feito no Next Level Week, oferecido pela Rocketseat.
 ## ✨ Tecnologias
 
 -   [ ] React
